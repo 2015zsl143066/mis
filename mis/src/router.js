@@ -18,7 +18,7 @@ function RouterConfig({ history }) {
       <Route path="/sucess" component={Sucess}/>
 
 
-      <Route path="/search" component={Search}/>
+
 
       <Route path="/" component={Outer}>
         <Route path="/a" component={Inner}/>
@@ -26,6 +26,7 @@ function RouterConfig({ history }) {
         <Route path="/label" component={Label}/>
         <Route path="/change" component={Change}/>
         <Route path="/change/detail" component={Detail}/>
+        <Route path="/search" component={Search}/>
       </Route>
 
 
